@@ -12,17 +12,18 @@ session_start();
 
 	$stmt = $pdo->prepare("SELECT * FROM `person`
 	WHERE `username` = '$username'
-	AND `password` = '$password');");
+	AND `password` = '$password'");
 
 $stmt->execute();
 
 $row = $stmt->fetch(PDO::FETCH_ASSOC);
 
-if($row["user"] == "$user") {
-    header('Location: home-page.php');
-
+if($row){
+    $SESSION["personId"] = $row["personId"];
+    ?><p>Sucessful Login! Welcome Back.</p>
+    <a href="explore-page.php">Go to Feed</a><?php
 }else{
-    ?><p>User not found! Please register with cookdeck</p>
-    <a href="register-page.php">Register</a><?php
+    ?><p>Incorrect Login Infomation. Please Try Again!</p>
+    <a href="login-page.php">Back to Login</a><?php
 }
 ?>

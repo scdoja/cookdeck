@@ -10,13 +10,11 @@
     $firstName = $_POST["firstName"];
     $lastName = $_POST["lastName"];
     $lifeStyle = $_POST["lifeStyle"];
-    $calories = $_POST["calories"];
-    $user = $_POST["user"];
 
     include('includes/db-config.php');
 
-    $stmt = $pdo->prepare("INSERT INTO `person` (`personId`, `email`, `password`,`username`,`firstName`,`lastName`,`lifeStyle`,`calories`,`user`)
-    VALUES (NULL, '$email', '$password', '$username', '$firstName', '$lastName', '$lifeStyle','$calories','$user');");
+    $stmt = $pdo->prepare("INSERT INTO `person` (`personId`, `email`, `password`,`username`,`firstName`,`lastName`,`lifeStyle`)
+    VALUES (NULL, '$email', '$password', '$username', '$firstName', '$lastName', '$lifeStyle');");
 
     $stmt->execute();
 

@@ -27,9 +27,4 @@
     echo("<label>Last Name:</label>").$row["lastName"];
     echo("<label>Username:</label>").$row["username"];
     echo("<label>Lifestyle:</label>").$row["lifeStyle"];
-    echo("<label>Calories:</label>").$row["calories"];
-
-?>
-<?php
-}
-?>
+}?>
