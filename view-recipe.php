@@ -26,7 +26,7 @@
     while($row = $stmt ->fetch(PDO::FETCH_ASSOC)){
 
         echo("<div>");
-        
+
         echo "<img src='repimages/".$row['image']."'width=450px'/>";
 
         echo("<h1>");
