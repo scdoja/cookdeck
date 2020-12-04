@@ -5,7 +5,7 @@
 	<meta name="description" content="cookdeck - Explore Page">
 	<meta name="keywords" content="food, recipes, health, cooking">
     <link rel="author" content="Jason Do">
-    <link rel="stylesheet" href="css/family.css">
+    <link rel="stylesheet" href="css/family-page.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='icon' type="image/png" sizes="32x32" href='favicon/favicon.png'>
 <head>
@@ -22,8 +22,6 @@
 <div class = "family">
     <h1 id="familytitle">family recipes</h1>
 </div>
-</body>
-</html>
 
 <?php
     include('includes/db-config.php');
@@ -61,4 +59,21 @@
         echo("</div>");
 
         echo("</div>");
-}
+}?>
+
+<div class = "explore">
+    <h1 id="exploretitle">explore more lifestyle recipes down below...</h1>
+</div>
+
+<div class = "student">
+<h1 id="studentitle">explore student lifestyle recipes here</h1>
+<a href="http://localhost/cookdeck/view-recipe-student.php" class="button">explore here</a>
+</div>
+
+<div class = "professional">
+<h1 id="proftitle">explore professional lifestyle recipes here</h1>
+<a href="http://localhost/cookdeck/view-recipe-professional.php" class="button2">explore here</a>
+</div>
+
+</body>
+</html>
