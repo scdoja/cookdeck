@@ -5,6 +5,7 @@
 	<meta name="description" content="cookdeck - Explore Page">
 	<meta name="keywords" content="food, recipes, health, cooking">
 	<link rel="author" content="Jason Do">
+    <link rel="stylesheet" href="css/recipe.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='icon' type="image/png" sizes="32x32" href='favicon/favicon.png'>
 <head>
@@ -25,9 +26,11 @@
 
     while($row = $stmt ->fetch(PDO::FETCH_ASSOC)){
 
-        echo("<div>");
+        echo("<div class='recipe'>");
 
-        echo "<img src='repimages/".$row['image']."'width=450px'/>";
+        echo("<div class='img'>");
+        echo "<img src='repimage/".$row['image']."'width=550px'/>";
+        echo("</div>");
 
         echo("<h1>");
         echo($row["recipeTitle"]);
@@ -55,3 +58,12 @@
 
         echo("</div>");
 }
+?>
+
+<div class = "explore">
+<h1 id="exploretitle">explore more recipes like this one on cookdeck</h1>
+<a href="http://localhost/cookdeck/explore-page.php" class="button">explore here</a>
+</div>
+
+</body>
+</html>

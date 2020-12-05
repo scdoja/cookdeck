@@ -22,12 +22,17 @@
 </div>
 
 <body>
+    <div class = "message">
+    <h1 id="message"></h1>
+    <a id="link"></a>
+    </div>
+
 <div class="form">
 <form method="POST" enctype="multipart/form-data" action="process-contact-page.php">
 
-    <p>First Name</p> <input type="text" name="firstName" placeholder="first name..."/>
-    <p>Last Name</p>  <input type="text" name="lastName" placeholder="last name..."/>
-    <p>Your Email</p> <input type="email" name="emailAddress" placeholder="email address..." required/>
+    <p>First Name</p> <input type="text" name="firstName" id="firstName" placeholder="first name..."/>
+    <p>Last Name</p>  <input type="text" name="lastName" id="lastName" placeholder="last name..."/>
+    <p>Your Email</p> <input type="email" name="emailAddress" id="emailAddress" placeholder="email address..." required/>
 
     <p>Select Your Lifestyle</p> <select id="lifeStyle" name="lifeStyle">
                 <option value="student">Student</option>
@@ -35,8 +40,9 @@
                 <option value="family">Family</option>
                 </select>
 
-        <input type="submit">
-    </form>
+        <input type="submit" id="submit">
+</form>
+        <script src="js/contact.js"></script>
 </div>
 </body>
 </html>

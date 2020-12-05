@@ -15,9 +15,9 @@ h2{
     margin: 0;
 }
 
-.student{
+.professional{
     height: 40vh;
-    background-image: url("../images/studentcover.jpg");
+    background-image: url("../images/profcover.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -26,7 +26,7 @@ h2{
     justify-content: center;
 }
 
-#studenttitle{
+#proftitle{
     display: flex;
     justify-content: center;
     color:white;
@@ -48,7 +48,7 @@ h2{
     align-items: center;
     background-color: white;
     border-style: solid;
-    border-color: #67BD55;
+    border-color: #60C5C2;
     border-width: 6px;
     border-top: 0px;
     border-right: 0px;
@@ -87,14 +87,13 @@ p{
     color:#60C5C2;
 }
 
-
 .explore{
     height: 25vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #67BD55;
+    background-color: #60C5C2;
 }
 
 #exploretitle{
@@ -103,28 +102,28 @@ p{
     margin: 8px;
 }
 
-.professional{
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #60C5C2;
-}
-
-#proftitle{
-    color:white;
-    font-size: 1.5em;
-    margin: 8px;
-}
-
-.family{
+.student{
     height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #67BD55;
+}
+
+#studentitle{
+    color:white;
+    font-size: 1.5em;
+    margin: 8px;
+
+}
+.family{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #60C5C2;
 }
 
 #famtitle{
@@ -139,15 +138,6 @@ p{
     margin-bottom: 10px;
     transition: all 300ms;
 }
-
-#studenttitle{
-    transition: all 300ms;
-}
-
-#studenttitle:hover{
-    transform: scale(1.5);
-}
-
 .button:hover{
     background-color: #60C5C2;
     transform: scale(1.2);
@@ -163,4 +153,12 @@ p{
 .button2:hover{
     background-color: #67BD55;
     transform: scale(1.2);
+}
+
+#proftitle{
+    transition: all 300ms;
+}
+
+#proftitle:hover{
+    transform: scale(1.5);
 }
