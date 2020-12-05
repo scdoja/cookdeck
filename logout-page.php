@@ -27,7 +27,7 @@
 <img src="images/cdlogo.png">
 <p>Thank you for using cookdeck!</p>
 <div class="link">
-	<a href="login-page.php">Return Home</a>
+	<a href="home-page.php">Return Home</a>
 </div>
 </div>
 

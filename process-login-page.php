@@ -20,8 +20,7 @@ $row = $stmt->fetch(PDO::FETCH_ASSOC);
 
 if($row){
     $SESSION["personId"] = $row["personId"];
-    ?><p>Sucessful Login! Welcome Back.</p>
-    <a href="explore-page.php">Go to Feed</a><?php
+    header('Location:explore-page.php');
 }else{
     ?><p>Incorrect Login Infomation. Please Try Again!</p>
     <a href="login-page.php">Back to Login</a><?php

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <head>
-    <title>cookdeck - Contact Us</title>
+    <title>cookdeck - Suggest Recipes</title>
     <meta charset="utf-8">
 	<meta name="description" content="cookdeck - Explore Page">
 	<meta name="keywords" content="food, recipes, health, cooking">
 	<link rel="author" content="Jason Do">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/suggest.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='icon' type="image/png" sizes="32x32" href='favicon/favicon.png'>
 <head>
@@ -17,8 +17,8 @@
 
 <!DOCTYPE html>
 
-<div class = "contact">
-    <h1 id="contacttitle">contact</h1>
+<div class = "suggest">
+    <h1 id="suggesttitle">submit recipe suggestions</h1>
 </div>
 
 <body>
@@ -28,28 +28,22 @@
     </div>
 
 <div class="form">
-<form method="POST" enctype="multipart/form-data" action="process-contact-page.php">
 
-    <p>First Name</p> <input type="text" name="firstName" id="firstName" placeholder="first name..."/>
-    <p>Last Name</p>  <input type="text" name="lastName" id="lastName" placeholder="last name..."/>
+<form method="POST" enctype="multipart/form-data" action="process-suggest-page.php">
+
+    <p>Recipe Name</p> <input type="text" name="recipeName" id="recipeName" placeholder="your recipe name..."/>
+    <p>Recipe Ingredients</p>  <input type="text" name="recipeIng" id="recipeIng" placeholder="a few ingredients..."/>
     <p>Your Email</p> <input type="email" name="emailAddress" id="emailAddress" placeholder="email address..." required/>
 
-    <p>Select Your Lifestyle</p> <select id="lifeStyle" name="lifeStyle">
+    <p>Select Recipe Lifestyle</p> <select id="lifeStyle" name="lifeStyle">
                 <option value="student">Student</option>
                 <option value="professional">Professional</option>
                 <option value="family">Family</option>
                 </select>
+    <input type="submit" id="submit">
 
-        <input type="submit" id="submit">
 </form>
+<script src="js/suggest.js"></script>
 </div>
-
-<div class = "explore">
-    <h1 id="exploretitle">have a recipe suggestion for cookdeck?</h1>
-    <a href="http://localhost/cookdeck/suggest.php" class="button">suggest recipes here</a>
-</div>
-
-    <script src="js/contact.js"></script>
-
 </body>
 </html>
