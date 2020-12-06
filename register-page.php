@@ -16,7 +16,7 @@
 ?>
 
 <!DOCTYPE html>
-
+<html>
 <div class = "register">
     <h1 id="registertitle">register</h1>
 </div>
@@ -49,5 +49,6 @@
 </form>
 <script src="js/register.js"></script>
 </div>
+
 </body>
 </html>

@@ -13,6 +13,8 @@
 
 <?php
     include("includes/header.html");
+    session_start();
+    if(isset($_SESSION["personId"]));
 ?>
 
 <!DOCTYPE html>
@@ -61,6 +63,7 @@
         echo("</div>");
 }
 ?>
+<html>
 <div class = "explore">
 <h1 id="exploretitle">explore more lifestyle recipes down below...</h1>
 </div>

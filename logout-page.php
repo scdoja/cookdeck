@@ -20,15 +20,18 @@
     include("includes/header.html");
 ?>
 
+<!DOCTYPE html>
 <html>
 <body>
 
 <div class="logout">
 <img src="images/cdlogo.png">
 <p>Thank you for using cookdeck!</p>
+
 <div class="link">
 	<a href="home-page.php">Return Home</a>
 </div>
+
 </div>
 
 </body>

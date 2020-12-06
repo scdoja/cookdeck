@@ -13,10 +13,12 @@
 
 <?php
     include("includes/header.html");
+    session_start();
+    if(isset($_SESSION["personId"]));
 ?>
 
 <!DOCTYPE html>
-
+<html>
 <div class = "suggest">
     <h1 id="suggesttitle">submit recipe suggestions</h1>
 </div>
@@ -45,5 +47,11 @@
 </form>
 <script src="js/suggest.js"></script>
 </div>
+
+<div class = "explore">
+<h1 id="exploretitle">start cooking with cookdeck today!</h1>
+<a href="http://localhost/cookdeck/explore-page.php" class="button">find your next meal</a>
+</div>
+
 </body>
 </html>

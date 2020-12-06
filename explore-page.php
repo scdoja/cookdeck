@@ -12,7 +12,9 @@
 </html>
 
 <?php
-include("includes/header.html");
+    include("includes/header.html");
+    session_start();
+    if(isset($_SESSION["personId"]));
 ?>
 
 <!DOCTYPE html>

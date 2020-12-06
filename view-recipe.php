@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title>cookdeck</title>
+    <title>cookdeck - recipes</title>
     <meta charset="utf-8">
 	<meta name="description" content="cookdeck - Explore Page">
 	<meta name="keywords" content="food, recipes, health, cooking">
@@ -13,12 +13,14 @@
 
 <?php
     include("includes/header.html");
+    session_start();
+    if(isset($_SESSION["personId"]));
 ?>
 
 <?php
     $recipeId = $_GET["recipeId"];
-
     include('includes/db-config.php');
+
 
     $stmt = $pdo->prepare("SELECT * FROM `recipes` WHERE `recipes`.`recipeId` = $recipeId;");
 
@@ -59,7 +61,7 @@
         echo("</div>");
 }
 ?>
-
+<html>
 <div class = "explore">
 <h1 id="exploretitle">explore more recipes like this one on cookdeck</h1>
 <a href="http://localhost/cookdeck/explore-page.php" class="button">explore here</a>
