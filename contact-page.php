@@ -48,7 +48,7 @@
 
 <div class = "explore">
     <h1 id="exploretitle">have a recipe suggestion for cookdeck?</h1>
-    <a href="http://localhost/cookdeck/suggest.php" class="button">suggest recipes here</a>
+    <a href="suggest.php" class="button">suggest recipes here</a>
 </div>
 
     <script src="js/contact.js"></script>

@@ -29,7 +29,7 @@
 <h1 id="title">cooking recipes, simplified!</h1>
     <p id="about">explore recipes based on your lifestyle choices. cookdeck
     helps you stay organized, so you can focus on cooking & eating.</p>
-    <a href="http://localhost/cookdeck/register-page.php" class="button">Find Your Next Meal!</a>
+    <a href="register-page.php" class="button">Find Your Next Meal!</a>
 </div>
 
 <div class = "benefit2">

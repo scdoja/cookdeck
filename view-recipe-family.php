@@ -70,12 +70,12 @@
 
 <div class = "student">
 <h1 id="studentitle">explore student lifestyle recipes here</h1>
-<a href="http://localhost/cookdeck/view-recipe-student.php" class="button">explore here</a>
+<a href="view-recipe-student.php" class="button">explore here</a>
 </div>
 
 <div class = "professional">
 <h1 id="proftitle">explore professional lifestyle recipes here</h1>
-<a href="http://localhost/cookdeck/view-recipe-professional.php" class="button2">explore here</a>
+<a href="view-recipe-professional.php" class="button2">explore here</a>
 </div>
 
 </body>

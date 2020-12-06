@@ -64,7 +64,7 @@
 <html>
 <div class = "explore">
 <h1 id="exploretitle">explore more recipes like this one on cookdeck</h1>
-<a href="http://localhost/cookdeck/explore-page.php" class="button">explore here</a>
+<a href="explore-page.php" class="button">explore here</a>
 </div>
 
 </body>

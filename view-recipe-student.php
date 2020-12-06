@@ -70,12 +70,12 @@
 
 <div class = "professional">
 <h1 id="proftitle">explore professional lifestyle recipes here</h1>
-<a href="http://localhost/cookdeck/view-recipe-professional.php" class="button2">explore here</a>
+<a href="view-recipe-professional.php" class="button2">explore here</a>
 </div>
 
 <div class = "family">
 <h1 id="famtitle">explore family lifestyle recipes here</h1>
-<a href="http://localhost/cookdeck/view-recipe-family.php" class="button">explore here</a>
+<a href="view-recipe-family.php" class="button">explore here</a>
 </div>
 
 </body>

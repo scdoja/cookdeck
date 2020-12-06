@@ -28,19 +28,19 @@
 <div class = "student">
 <img id="stu" src="images/student.png" width="80" height="80">
 <h1 id="studentitle">explore student lifestyle recipes</h1>
-    <a href="http://localhost/cookdeck/view-recipe-student.php" class="button">explore here</a>
+    <a href="view-recipe-student.php" class="button">explore here</a>
 </div>
 
 <div class = "professional">
 <img id="prof" src="images/prof.png" width="65" height="65">
 <h1 id="proftitle">explore professional lifestyle recipes</h1>
-<a href="http://localhost/cookdeck/view-recipe-professional.php" class="button2">explore here</a>
+<a href="view-recipe-professional.php" class="button2">explore here</a>
 </div>
 
 <div class = "family">
 <img id="fam" src="images/fam.png" width="75" height="75">
 <h1 id="famtitle">explore family lifestyle recipes</h1>
-<a href="http://localhost/cookdeck/view-recipe-family.php" class="button">explore here</a>
+<a href="view-recipe-family.php" class="button">explore here</a>
 </div>
 
 </body>
