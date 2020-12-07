@@ -48,10 +48,5 @@
 <script src="js/suggest.js"></script>
 </div>
 
-<div class = "explore">
-<h1 id="exploretitle">start cooking with cookdeck today!</h1>
-<a href="explore-page.php" class="button">find your next meal</a>
-</div>
-
 </body>
 </html>
