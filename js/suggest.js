@@ -2,6 +2,7 @@ var recipeName = document.querySelectorAll("#recipeName")[0];
 var recipeIng = document.querySelectorAll("#recipeIng")[0];
 var emailAddress = document.querySelectorAll("#emailAddress")[0];
 var lifeStyle = document.querySelectorAll("#lifeStyle")[0];
+var image = document.getElementById("#image").files[0].name;
 var form = document.querySelectorAll("div.form")[0];
 var message = document.querySelectorAll("#message")[0];
 var link = document.querySelectorAll("#link")[0];
@@ -24,5 +25,5 @@ function insertdata(event){
 };
     xhr.open("POST","process-suggest-page.php",true);
     xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-    xhr.send(`recipeName=${recipeName.value}&recipeIng=${recipeIng.value}&emailAddress=${emailAddress.value}&lifeStyle=${lifeStyle.value}`);
+    xhr.send(`recipeName=${recipeName.value}&recipeIng=${recipeIng.value}&emailAddress=${emailAddress.value}&lifeStyle=${lifeStyle.value}&image=${image.value}`);
 }

@@ -12,11 +12,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 #contacttitle{
-    display: flex;
-    justify-content: center;
     color:white;
     font-size: 5.0em;
     text-shadow: 3px 3px #368783;
@@ -87,6 +86,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #368783;
+  transition-duration: 0.4s;
 }
 
 .form{

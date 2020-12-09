@@ -20,7 +20,8 @@
 <!DOCTYPE html>
 <html>
 <div class = "suggest">
-    <h1 id="suggesttitle">submit recipe suggestions</h1>
+    <h1 id="suggesttitle">submit your recipe</h1>
+    <a href="view-recipe-user.php" class="button">Explore User Recipes</a>
 </div>
 
 <body>
@@ -38,10 +39,13 @@
     <p>Your Email</p> <input type="email" name="emailAddress" id="emailAddress" placeholder="email address..." required/>
 
     <p>Select Recipe Lifestyle</p> <select id="lifeStyle" name="lifeStyle">
-                <option value="student">Student</option>
-                <option value="professional">Professional</option>
-                <option value="family">Family</option>
-                </select>
+        <option value="student">Student</option>
+        <option value="professional">Professional</option>
+        <option value="family">Family</option>
+    </select>
+
+    <p>Upload Recipe Image</p> <input type="file" name="image" id="image"/>
+
     <input type="submit" id="submit">
 
 </form>

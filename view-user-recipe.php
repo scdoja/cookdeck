@@ -22,7 +22,7 @@
     include('includes/db-config.php');
 
 
-    $stmt = $pdo->prepare("SELECT * FROM `recipes` WHERE `recipes`.`recipeId` = $recipeId;");
+    $stmt = $pdo->prepare("SELECT * FROM `suggest` WHERE `suggest`.`recipeId` = $recipeId;");
 
     $stmt->execute();
 
@@ -31,36 +31,41 @@
         echo("<div class='recipe'>");
 
         echo("<div class='img'>");
-        echo "<img src='repimage/".$row['image']."'width=550px'/>";
+        echo "<img src='uploads/".$row['image']."'width=350px'/>";
         echo("</div>");
 
         echo("<h1>");
-        echo($row["recipeTitle"]);
+        echo($row["recipeName"]);
         echo("</h1>");
 
-        echo("<p>");
-        echo($row["preview"]);
-        echo("</p>");
-
         echo("<h2>");
-        echo("recipe ingredients");
+        echo("ingredients");
         echo("</h2>");
 
         echo("<p>");
-        echo($row["ingredients"]);
+        echo($row["recipeIng"]);
         echo("</p>");
 
         echo("<h2>");
-        echo("cooking steps");
+        echo("recipe creator");
         echo("</h2>");
 
         echo("<p>");
-        echo($row["content"]);
+        echo($row["emailAddress"]);
+        echo("</p>");
+
+        echo("<h2>");
+        echo("recipe lifestyle");
+        echo("</h2>");
+
+        echo("<p>");
+        echo($row["lifeStyle"]);
         echo("</p>");
 
         echo("</div>");
 }
 ?>
+
 <html>
 <div class = "tweet">
 <a class="twtbutton"

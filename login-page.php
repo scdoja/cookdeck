@@ -5,7 +5,7 @@
 	<meta name="description" content="cookdeck - Explore Page">
 	<meta name="keywords" content="food, recipes, health, cooking">
 	<link rel="author" content="Jason Do">
-    <link rel="stylesheet" href="css/login-page.css">
+    <link rel="stylesheet" href="css/login.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='icon' type="image/png" sizes="32x32" href='favicon/favicon.png'>
 
@@ -28,7 +28,7 @@
     <form action="process-login-page.php" method="POST">
         <p>Username</p> <input type="text" name="username" placeholder="username..." />
         <p>Password</p> <input type="text" name="password" placeholder="password..."/>
-        <input type="submit"/>
+            <input type="submit"/>
     </form>
 
 </div>

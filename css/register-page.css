@@ -27,6 +27,17 @@ input[type=text] {
     cursor: pointer;
 }
 
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
 input[type=submit] {
     width: 100%;
     background-color: #60C5C2;
@@ -43,6 +54,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #368783;
+  transition-duration: 0.4s;
 }
 
 .form{
@@ -58,21 +70,20 @@ input[type=submit]:hover {
   font-family: 'Poppins';
 }
 
-.login{
+.register{
     height: 40vh;
-    background-image: url("../images/logincover.jpg");
-    margin-bottom: 20px;
+    background-image: url("../images/registercover.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-#logintitle{
-    display: flex;
-    justify-content: center;
+#registertitle{
     color:white;
     font-size: 5.0em;
     text-shadow: 3px 3px #368783;
@@ -80,6 +91,30 @@ input[type=submit]:hover {
     transition: all 300ms;
 }
 
-#logintitle:hover{
+#registertitle:hover{
+    transform: scale(1.5);
+}
+
+.message{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#message{
+    font-size: 2.0em;
+    color: #60C5C2;
+}
+
+#link{
+    color: #67BD55;
+    font-size: 1.5em;
+    transition: all 300ms;
+}
+
+#link:hover{
     transform: scale(1.5);
 }

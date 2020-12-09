@@ -6,7 +6,7 @@
 	<meta name="keywords" content="food, recipes, health, cooking">
 	<link rel="author" content="Jason Do">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/student.css">
+    <link rel="stylesheet" href="css/student-page.css">
     <link rel='icon' type="image/png" sizes="32x32" href='favicon/favicon.png'>
 <head>
 </html>
@@ -46,7 +46,7 @@
 
         echo("<p>");
         echo($row["preview"]);
-        echo("<p>");
+        echo("</p>");
 
         echo("<h2>");
         echo("recipe ingredients");
@@ -69,14 +69,18 @@
 </div>
 
 <div class = "professional">
-<h1 id="proftitle">explore professional lifestyle recipes here</h1>
-<a href="view-recipe-professional.php" class="button2">explore here</a>
+    <h1 id="proftitle">explore professional lifestyle recipes here</h1>
+        <a href="view-recipe-professional.php" class="button2">explore here</a>
 </div>
 
 <div class = "family">
-<h1 id="famtitle">explore family lifestyle recipes here</h1>
-<a href="view-recipe-family.php" class="button">explore here</a>
+    <h1 id="famtitle">explore family lifestyle recipes here</h1>
+        <a href="view-recipe-family.php" class="button">explore here</a>
 </div>
 
 </body>
 </html>
+
+<?php
+    include("includes/footer.html");
+?>

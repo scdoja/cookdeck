@@ -12,15 +12,15 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 #hometitle{
-    display: flex;
-    justify-content: center;
     color:white;
     font-size: 5.5em;
     text-shadow: 3px 3px #60C5C2;
     letter-spacing: 5px;
+    transition: all 300ms;
 }
 
 .intro{
@@ -129,9 +129,6 @@ body{
     transform: scale(0.6);
 }
 
-#hometitle{
-    transition: all 300ms;
-}
 
 #hometitle:hover{
     transform: scale(1.5);

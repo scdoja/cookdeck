@@ -23,6 +23,6 @@ if($row){
     header('Location:explore-page.php');
 }else{
     ?><p>Incorrect Login Infomation. Please Try Again!</p>
-    <a href="login-page.php">Back to Login</a><?php
+        <a href="login-page.php">Back to Login</a><?php
 }
 ?>
