@@ -6,7 +6,7 @@
 	<meta name="keywords" content="food, recipes, health, cooking">
 	<link rel="author" content="Jason Do">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/view-suggest.css">
+    <link rel="stylesheet" href="css/viewsuggest.css">
     <link rel='icon' type="image/png" sizes="32x32" href='favicon/favicon.png'>
 <head>
 </html>
@@ -77,8 +77,8 @@
 }
 ?>
 <html>
-<div class = "family">
-    <h1 id="famtitle">explore cookdeck's lifestyle recipes here</h1>
+<div class = "explore">
+    <h1 id="exploretitle">explore cookdeck's lifestyle recipes here</h1>
         <a href="explore-page.php" class="button2">explore here</a>
 </div>
 
