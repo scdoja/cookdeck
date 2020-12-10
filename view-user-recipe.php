@@ -1,15 +1,12 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <title>cookdeck - recipes</title>
-    <meta charset="utf-8">
-	<meta name="description" content="cookdeck - Explore Page">
-	<meta name="keywords" content="food, recipes, health, cooking">
-	<link rel="author" content="Jason Do">
+    <title>cookdeck - user recipes</title>
+    <?php
+        include("includes/meta.html");
+    ?>
     <link rel="stylesheet" href="css/recipe-page.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='icon' type="image/png" sizes="32x32" href='favicon/favicon.png'>
 <head>
-</html>
 
 <?php
     include("includes/header.html");
@@ -66,7 +63,6 @@
 }
 ?>
 
-<html>
 <div class = "tweet">
 <a class="twtbutton"
 href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%2Fcookdeck%2Fhome-page.php&text=I%20just%20found%20a%20recipe%20on%20cookdeck%21%20Find%20your%20next%20meal%20too%21&hashtags=cookdeck%2CIMM2021"

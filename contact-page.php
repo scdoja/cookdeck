@@ -1,15 +1,12 @@
 <!DOCTYPE html>
+<html>
 <head>
     <title>cookdeck - Contact Us</title>
-    <meta charset="utf-8">
-	<meta name="description" content="cookdeck - Explore Page">
-	<meta name="keywords" content="food, recipes, health, cooking">
-	<link rel="author" content="Jason Do">
+    <?php
+        include("includes/meta.html");
+    ?>
     <link rel="stylesheet" href="css/contact-page.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='icon' type="image/png" sizes="32x32" href='favicon/favicon.png'>
 <head>
-</html>
 
 <?php
     include("includes/header.html");
@@ -17,7 +14,6 @@
     if(isset($_SESSION["personId"]));
 ?>
 
-<!DOCTYPE html>
 
 <div class = "contact">
     <h1 id="contacttitle">contact</h1>

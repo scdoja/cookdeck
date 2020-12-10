@@ -26,4 +26,5 @@ function insertdata(event){
     xhr.open("POST","process-suggest-page.php",true);
     xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
     xhr.send(`recipeName=${recipeName.value}&recipeIng=${recipeIng.value}&emailAddress=${emailAddress.value}&lifeStyle=${lifeStyle.value}&image=${image.value}`);
+    //couldn't figure out how to upload image with AJAX, used processing page instead.
 }

@@ -1,15 +1,13 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <title>cookdeck - Suggest Recipes</title>
-    <meta charset="utf-8">
-	<meta name="description" content="cookdeck - Explore Page">
-	<meta name="keywords" content="food, recipes, health, cooking">
-	<link rel="author" content="Jason Do">
+    <title>cookdeck - Submit Recipes</title>
+    <?php
+        include("includes/meta.html");
+    ?>
     <link rel="stylesheet" href="css/suggest.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='icon' type="image/png" sizes="32x32" href='favicon/favicon.png'>
 <head>
-</html>
+
 
 <?php
     include("includes/header.html");
@@ -17,8 +15,6 @@
     if(isset($_SESSION["personId"]));
 ?>
 
-<!DOCTYPE html>
-<html>
 <div class = "suggest">
     <h1 id="suggesttitle">submit your recipe</h1>
     <a href="view-recipe-user.php" class="button">Explore User Recipes</a>

@@ -1,15 +1,12 @@
 <!DOCTYPE html>
+<html>
 <head>
     <title>cookdeck - Home</title>
-    <meta charset="utf-8">
-	<meta name="description" content="cookdeck - Explore Page">
-	<meta name="keywords" content="food, recipes, health, cooking">
-	<link rel="author" content="Jason Do">
+    <?php
+        include("includes/meta.html");
+    ?>
     <link rel="stylesheet" href="css/home-page.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='icon' type="image/png" sizes="32x32" href='favicon/favicon.png'>
 <head>
-</html>
 
 <?php
     include("includes/header.html");
@@ -17,8 +14,6 @@
     if(isset($_SESSION["personId"]));
 ?>
 
-<!DOCTYPE html>
-<html>
 <body>
 
 <div class = "home">
@@ -48,9 +43,9 @@
 
 <div class = "benefit2">
 <h1 id="title2">have your own recipe? submit it here on cookdeck!</h1>
-    <p id="about2">submit or suggest your recipes to cookdeck! select your recipe lifestyle and image! users of cookdeck
+    <p id="about2">submit or suggest your recipes to cookdeck! make sure to include your recipe lifestyle! users of cookdeck
     are able to view your recipes!</p>
-            <a href="suggest.php" class="button">Suggest Recipe Here!</a>
+            <a href="suggest.php" class="button">Submit Recipe Here!</a>
 </div>
 
 </body>
