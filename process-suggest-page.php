@@ -37,6 +37,7 @@ echo("<div class='process'>");
     $stmt->execute();
 
 ?>
+    <img src="images/cdlogo.png">
     <p>Thank you for submitting your recipe!</p><a id="link" href="home-page.php">Back to Homepage</a>
 </div>
 </body>

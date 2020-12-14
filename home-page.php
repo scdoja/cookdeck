@@ -32,7 +32,7 @@
     <p id="about3">we focus on your health & well-being, so
         you can enjoy your favourite meals no matter your lifestyle.</p>
             <img id="food" src="images/food.png" width="100" height="100">
-    </div>
+</div>
 
 <div class = "benefit">
 <h1 id="title2">your lifestyle, your cooking recipes!</h1>

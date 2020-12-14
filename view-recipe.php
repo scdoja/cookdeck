@@ -29,31 +29,31 @@
         echo("<div class='recipe'>");
 
         echo("<div class='img'>");
-        echo "<img src='repimage/".$row['image']."'width=550px'/>";
+            echo "<img src='repimage/".$row['image']."'width=550px'/>";
         echo("</div>");
 
         echo("<h1>");
-        echo($row["recipeTitle"]);
+            echo($row["recipeTitle"]);
         echo("</h1>");
 
         echo("<p>");
-        echo($row["preview"]);
+            echo($row["preview"]);
         echo("</p>");
 
         echo("<h2>");
-        echo("recipe ingredients");
+            echo("recipe ingredients");
         echo("</h2>");
 
         echo("<p>");
-        echo($row["ingredients"]);
+            echo($row["ingredients"]);
         echo("</p>");
 
         echo("<h2>");
-        echo("cooking steps");
+            echo("cooking steps");
         echo("</h2>");
 
         echo("<p>");
-        echo($row["content"]);
+            echo($row["content"]);
         echo("</p>");
 
         echo("</div>");
@@ -70,7 +70,7 @@ data-size="large"><p id="tweettext">share cookdeck recipe!</p></a>
 <div class = "explore">
     <h1 id="exploretitle">explore more recipes like this one on cookdeck</h1>
         <a href="explore-page.php" class="button">explore here</a>
-    </div>
+</div>
 
 
 </body>

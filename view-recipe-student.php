@@ -32,27 +32,27 @@
         echo("<div class='recipe'>");
 
         echo("<div class='img'>");
-        echo "<img src='repimage/".$row['image']."'height=350px'/>";
+            echo "<img src='repimage/".$row['image']."'height=350px'/>";
         echo("</div>");
 
         echo("<h1>");
-        echo($row["recipeTitle"]);
+            echo($row["recipeTitle"]);
         echo("</h1>");
 
         echo("<p>");
-        echo($row["preview"]);
+            echo($row["preview"]);
         echo("</p>");
 
         echo("<h2>");
-        echo("recipe ingredients");
+            echo("recipe ingredients");
         echo("</h2>");
 
         echo("<p>");
-        echo($row["ingredients"]);
+            echo($row["ingredients"]);
         echo("</p>");
 
         echo("<div class='link'>");
-        echo "<a href='view-recipe.php?recipeId=".$row['recipeId']."'>View Full Recipe</a>";
+            echo "<a href='view-recipe.php?recipeId=".$row['recipeId']."'>View Full Recipe</a>";
         echo("</div>");
 
         echo("</div>");

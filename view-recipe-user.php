@@ -33,39 +33,39 @@
         echo("<div class='recipe'>");
 
         echo("<div class='img'>");
-        echo "<img src='uploads/".$row['image']."'height=350px'/>";
+            echo "<img src='uploads/".$row['image']."'height=350px'/>";
         echo("</div>");
 
         echo("<h1>");
-        echo($row["recipeName"]);
+            echo($row["recipeName"]);
         echo("</h1>");
 
         echo("<h2>");
-        echo("ingredients");
+            echo("ingredients");
         echo("</h2>");
 
         echo("<p>");
-        echo($row["recipeIng"]);
+            echo($row["recipeIng"]);
         echo("</p>");
 
         echo("<h2>");
-        echo("recipe creator");
+            echo("recipe creator");
         echo("</h2>");
 
         echo("<p>");
-        echo($row["emailAddress"]);
+            echo($row["emailAddress"]);
         echo("</p>");
 
         echo("<h2>");
-        echo("recipe lifestyle");
+            echo("recipe lifestyle");
         echo("</h2>");
 
         echo("<p>");
-        echo($row["lifeStyle"]);
+            echo($row["lifeStyle"]);
         echo("</p>");
 
         echo("<div class='link'>");
-        echo "<a href='view-user-recipe.php?recipeId=".$row['recipeId']."'>View Full Recipe</a>";
+            echo "<a href='view-user-recipe.php?recipeId=".$row['recipeId']."'>View Full Recipe</a>";
         echo("</div>");
 
         echo("</div>");
