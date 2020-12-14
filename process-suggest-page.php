@@ -29,15 +29,17 @@ echo("<div class='process'>");
     $uploaddir = "uploads/";
     $uploadfile = $uploaddir . basename($_FILES["image"]["name"], time() . "_{$image}");
     if (move_uploaded_file($_FILES['image']["tmp_name"], $uploadfile)) {
-        echo "If you uploaded a recipe image, it was successful!\n";
+        //echo "If you uploaded a recipe image, it was successful!\n";
     } else {
-        echo "You didn't upload a file.\n";
+        //echo "You didn't upload a file.\n";
     }
 
     $stmt->execute();
 
 ?>
-    <img src="images/cdlogo.png">
+    <a href="home-page.php">
+        <img src="images/cdlogo.png">
+    </a>
     <p>Thank you for submitting your recipe!</p><a id="link" href="home-page.php">Back to Homepage</a>
 </div>
 </body>

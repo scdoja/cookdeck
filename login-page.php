@@ -5,7 +5,7 @@
 <?php
     include("includes/meta.html");
 ?>
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/login-page.css">
 <head>
 
 <?php
@@ -21,10 +21,9 @@
     <div class = "form">
     <form action="process-login-page.php" method="POST">
         <p>Username</p> <input type="text" name="username" placeholder="username..." />
-        <p>Password</p> <input type="text" name="password" placeholder="password..."/>
+        <p>Password</p> <input type="password" name="password" placeholder="password..."/>
             <input type="submit"/>
     </form>
-
     </div>
 </body>
 </html>

@@ -20,7 +20,7 @@
 </div>
 
 <body>
-    <div class = "message">
+    <div class="message">
     <h1 id="message"></h1>
     <a id="link"></a>
     </div>
@@ -33,21 +33,25 @@
     <p>Your Email</p> <input type="email" name="emailAddress" id="emailAddress" placeholder="email address..." required/>
 
     <p>Select Your Lifestyle</p> <select id="lifeStyle" name="lifeStyle">
-                <option value="student">Student</option>
-                <option value="professional">Professional</option>
-                <option value="family">Family</option>
-                </select>
+            <option value="student">Student</option>
+            <option value="professional">Professional</option>
+            <option value="family">Family</option>
+    </select>
 
-        <input type="submit" id="submit">
+    <input type="submit" id="submit">
 </form>
 </div>
 
 <div class = "explore">
     <h1 id="exploretitle">have a recipe suggestion for cookdeck?</h1>
-    <a href="suggest.php" class="button">suggest recipes here</a>
+    <a href="suggest.php" class="button">submit your recipe here</a>
 </div>
 
     <script src="js/contact.js"></script>
 
 </body>
 </html>
+
+<?php
+    include("includes/footer.html");
+?>

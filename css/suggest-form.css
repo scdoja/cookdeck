@@ -129,20 +129,29 @@ input[type=submit]:hover {
 }
 
 .button{
-    background-color: #67BD55;
-    border: none;
     color: white;
-    padding: 15px 32px;
-    margin: 25px 4px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 8px;
-    transition-duration: 0.4s;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    transition: all 300ms;
 }
+
 .button:hover{
-    background-color: #2A973E;
+    background-color: #60C5C2;
     transform: scale(1.2);
+}
+
+.explore{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #67BD55;
+    margin-top: 25px;
+}
+
+#exploretitle{
+    color:white;
+    font-size: 2.0em;
+    margin: 8px;
 }

@@ -23,7 +23,7 @@
 <div class="logout">
     <a href="home-page.php">
         <img src="images/cdlogo.png">
-</a>
+    </a>
     <p>Thank you for using cookdeck!</p>
 
 <div class="link">

@@ -40,7 +40,7 @@
 
 <div class = "user">
     <img id="user" src="images/user.png" width="75" height="75">
-    <h1 id="usertitle">explore user suggested recipes</h1>
+    <h1 id="usertitle">explore user submitted recipes</h1>
         <a href="view-recipe-user.php" class="button2">explore here</a>
 </div>
 

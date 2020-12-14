@@ -18,7 +18,7 @@
 
 <div class = "suggest">
     <h1 id="suggesttitle">user submitted recipes</h1>
-    <a href="suggest.php" class="button">Submit Your Recipe</a>
+    <a href="suggest.php" class="button">Submit Your Recipe Today</a>
 </div>
 
 <?php
@@ -33,7 +33,7 @@
         echo("<div class='recipe'>");
 
         echo("<div class='img'>");
-            echo "<img src='uploads/".$row['image']."'height=350px'/>";
+            echo "<img src='uploads/".$row['image']."'height=350px width=650px'/>";
         echo("</div>");
 
         echo("<h1>");
@@ -71,7 +71,6 @@
         echo("</div>");
 }
 ?>
-<html>
 <div class = "explore">
     <h1 id="exploretitle">explore cookdeck's lifestyle recipes here</h1>
         <a href="explore-page.php" class="button2">explore here</a>

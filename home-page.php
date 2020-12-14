@@ -20,33 +20,65 @@
     <h1 id="hometitle">cookdeck</h1>
 </div>
 
-<div class = "intro">
-<h1 id="title">cooking recipes, simplified!</h1>
-    <p id="about">explore recipes based on your lifestyle choices. cookdeck
-    helps you stay organized, so you can focus on cooking & eating.</p>
-        <a href="register-page.php" class="button">Find Your Next Meal!</a>
-</div>
+<?php
+    include('includes/db-config.php');
 
-<div class = "benefit2">
-    <h1 id="title3">why cookdeck?</h1>
-    <p id="about3">we focus on your health & well-being, so
-        you can enjoy your favourite meals no matter your lifestyle.</p>
-            <img id="food" src="images/food.png" width="100" height="100">
-</div>
+    $stmt = $pdo->prepare("SELECT * FROM `home`");
 
-<div class = "benefit">
-<h1 id="title2">your lifestyle, your cooking recipes!</h1>
-    <p id="about2">busy? lazy? no life? explore cooking recipes based on your lifestyle. cookdeck provides recipes
-        for most lifestyles...even yours.</p>
-            <img id="cook" src="images/cooking.png" width="100" height="100">
-</div>
+    $stmt->execute();
 
-<div class = "benefit2">
-<h1 id="title2">have your own recipe? submit it here on cookdeck!</h1>
-    <p id="about2">submit or suggest your recipes to cookdeck! make sure to include your recipe lifestyle! users of cookdeck
-    are able to view your recipes!</p>
-            <a href="suggest.php" class="button">Submit Recipe Here!</a>
-</div>
+    while($row = $stmt ->fetch(PDO::FETCH_ASSOC)){
+
+echo("<div class = 'intro'>");
+    echo("<h1 id='title'>");
+        echo("cooking recipes, simplified!");
+    echo("</h1>");
+
+    echo("<p id='about'>");
+        echo($row["about"]);
+    echo("</p>");
+
+    echo "<a href='register-page.php' class='button'>Find Your Next Meal!</a>";
+echo("</div>");
+
+echo("<div class ='benefit2'>");
+    echo("<h1 id='title3'>");
+        echo("why cookdeck?");
+    echo("</h1>");
+
+    echo("<p id='about3'>");
+        echo($row["benefit1"]);
+    echo("</p>");
+
+    echo "<img id='food' src='images/food.png' width='100' height='100'>";
+echo("</div>");
+
+echo("<div class ='benefit'>");
+    echo("<h1 id='title2'>");
+        echo("your lifestyle, your cooking recipes!");
+    echo("</h1>");
+
+    echo("<p id='about2'>");
+        echo($row["benefit2"]);
+    echo("</p>");
+
+    echo "<img id='food' src='images/cooking.png' width='100' height='100'>";
+echo("</div>");
+
+echo("<div class ='benefit2'>");
+    echo("<h1 id='title2'>");
+        echo("have your own recipe? submit it here on cookdeck!");
+    echo("</h1>");
+
+    echo("<p id='about2'>");
+        echo($row["benefit3"]);
+    echo("</p>");
+
+    echo "<a href='suggest.php' class='button'>Submit Recipe Here!</a>";
+echo("</div>");
+
+}
+?>
 
 </body>
 </html>

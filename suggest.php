@@ -5,7 +5,7 @@
     <?php
         include("includes/meta.html");
     ?>
-    <link rel="stylesheet" href="css/suggest.css">
+    <link rel="stylesheet" href="css/suggest-form.css">
 <head>
 
 
@@ -17,7 +17,6 @@
 
 <div class = "suggest">
     <h1 id="suggesttitle">submit your recipe</h1>
-    <a href="view-recipe-user.php" class="button">Explore User Recipes</a>
 </div>
 
 <body>
@@ -45,8 +44,18 @@
     <input type="submit" id="submit">
 
 </form>
-<script src="js/suggest.js"></script>
 </div>
+
+<div class = "explore">
+    <h1 id="exploretitle">explore user submitted recipes today!</h1>
+    <a href="view-recipe-user.php" class="button">explore user recipes</a>
+</div>
+
+<script src="js/suggest.js"></script>
 
 </body>
 </html>
+
+<?php
+    include("includes/footer.html");
+?>

@@ -62,7 +62,8 @@
 <div class = "tweet">
 <a class="twtbutton"
 href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%2Fcookdeck%2Fhome-page.php&text=I%20just%20found%20a%20recipe%20on%20cookdeck%21%20Find%20your%20next%20meal%20too%21&hashtags=cookdeck%2CIMM2021"
-data-size="large"><p id="tweettext">share cookdeck recipe!</p></a>
+data-size="large"><p id="tweettext">share cookdeck recipe!</p>
+</a>
 </div>
 
 <script>"js/tweet.js"</script>
@@ -71,7 +72,6 @@ data-size="large"><p id="tweettext">share cookdeck recipe!</p></a>
     <h1 id="exploretitle">explore more recipes like this one on cookdeck</h1>
         <a href="explore-page.php" class="button">explore here</a>
 </div>
-
 
 </body>
 </html>

@@ -69,9 +69,10 @@ li a:hover:not(.active) {
     font-size: 0.8em;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
 ul{
     width:100%;
+    display:block;
 }
 li{
     float: none;

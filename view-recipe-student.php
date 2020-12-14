@@ -58,7 +58,6 @@
         echo("</div>");
 }
 ?>
-<html>
 <div class = "explore">
     <h1 id="exploretitle">explore more lifestyle recipes down below...</h1>
 </div>
