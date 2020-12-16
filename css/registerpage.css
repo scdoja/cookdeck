@@ -38,10 +38,6 @@ input[type=password] {
     cursor: pointer;
 }
 
-
-
-
-
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -81,8 +77,8 @@ input[type=submit]:hover {
 }
 
 ::placeholder {
-  font-size: 1.2em;
-  font-family: 'Poppins';
+    font-size: 1.2em;
+    font-family: 'Poppins';
 }
 
 .register{

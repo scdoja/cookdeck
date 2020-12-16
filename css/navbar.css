@@ -1,6 +1,6 @@
 html, body {
-  margin:0;
-  padding:0;
+    margin:0;
+    padding:0;
 }
 
 #logo{
@@ -19,25 +19,25 @@ header{
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #58595B;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #58595B;
 }
 
 li {
-  float: left;
+    float: left;
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  margin: 20px 16px;
-  padding: 14px 16px;
-  text-decoration: none;
-  transition: 0.4s;
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 20px 16px;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.4s;
 }
 
 li a:hover:not(.active) {

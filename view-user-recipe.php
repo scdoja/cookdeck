@@ -28,7 +28,7 @@
         echo("<div class='recipe'>");
 
         echo("<div class='img'>");
-            echo "<img src='uploads/".$row['image']."'width=350px'/>";
+            echo "<img src='uploads/".$row['image']."'height=350px width=600px'/>";
         echo("</div>");
 
         echo("<h1>");
@@ -41,6 +41,14 @@
 
         echo("<p>");
             echo($row["recipeIng"]);
+        echo("</p>");
+
+        echo("<h2>");
+            echo("cooking steps");
+        echo("</h2>");
+
+        echo("<p>");
+            echo($row["content"]);
         echo("</p>");
 
         echo("<h2>");

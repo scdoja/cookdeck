@@ -41,7 +41,7 @@
             <option value="family">Family</option>
         </select>
 
-            <input type="submit" id="submit">
+    <input type="submit" id="submit">
 
     </form>
 <script src="js/register.js"></script>

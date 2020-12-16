@@ -16,14 +16,15 @@ echo("<div class='process'>");
 
     $recipeName = $_POST["recipeName"];
     $recipeIng = $_POST["recipeIng"];
+    $content = $_POST["content"];
     $emailAddress = $_POST["emailAddress"];
     $lifeStyle = $_POST["lifeStyle"];
     $image = $_FILES["image"]["name"];
 
     include('includes/db-config.php');
 
-    $stmt = $pdo->prepare("INSERT INTO `suggest` (`recipeId`, `recipeName`, `recipeIng`, `emailAddress`,`lifeStyle`, `image`)
-    VALUES (NULL, '$recipeName', '$recipeIng', '$emailAddress', '$lifeStyle', '$image');");
+    $stmt = $pdo->prepare("INSERT INTO `suggest` (`recipeId`, `recipeName`, `recipeIng`, `content`, `emailAddress`,`lifeStyle`, `image`)
+    VALUES (NULL, '$recipeName', '$recipeIng', '$content', '$emailAddress', '$lifeStyle', '$image');");
 
 
     $uploaddir = "uploads/";

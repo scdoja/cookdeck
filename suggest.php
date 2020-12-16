@@ -27,10 +27,12 @@
 
 <div class="form">
 
-<form method="POST" enctype="multipart/form-data" action="process-suggest-page.php">
+    <form method="POST" enctype="multipart/form-data" action="process-suggest-page.php">
 
     <p>Recipe Name</p> <input type="text" name="recipeName" id="recipeName" placeholder="your recipe name..."/>
     <p>Recipe Ingredients</p>  <input type="text" name="recipeIng" id="recipeIng" placeholder="a few ingredients..."/>
+    <p>Cooking Steps</p> <input type="text" name="content" id="content" placeholder="how do we cook your recipe...?"/>
+
     <p>Your Email</p> <input type="email" name="emailAddress" id="emailAddress" placeholder="email address..." required/>
 
     <p>Select Recipe Lifestyle</p> <select id="lifeStyle" name="lifeStyle">
@@ -43,7 +45,7 @@
 
     <input type="submit" id="submit">
 
-</form>
+    </form>
 </div>
 
 <div class = "explore">

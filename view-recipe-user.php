@@ -33,7 +33,7 @@
         echo("<div class='recipe'>");
 
         echo("<div class='img'>");
-            echo "<img src='uploads/".$row['image']."'height=350px width=650px'/>";
+            echo "<img src='uploads/".$row['image']."'height=350px width=600px'/>";
         echo("</div>");
 
         echo("<h1>");

@@ -53,8 +53,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #368783;
-  transition-duration: 0.4s;
+    background-color: #368783;
+    transition-duration: 0.4s;
 }
 
 .form{
@@ -66,8 +66,8 @@ input[type=submit]:hover {
 }
 
 ::placeholder {
-  font-size: 1.2em;
-  font-family: 'Poppins';
+    font-size: 1.2em;
+    font-family: 'Poppins';
 }
 
 .login{

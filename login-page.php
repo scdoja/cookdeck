@@ -22,7 +22,7 @@
     <form action="process-login-page.php" method="POST">
         <p>Username</p> <input type="text" name="username" placeholder="username..." />
         <p>Password</p> <input type="password" name="password" placeholder="password..."/>
-            <input type="submit"/>
+    <input type="submit"/>
     </form>
     </div>
 </body>

@@ -20,10 +20,11 @@
 </div>
 
 <body>
-    <div class="message">
+
+<div class="message">
     <h1 id="message"></h1>
     <a id="link"></a>
-    </div>
+</div>
 
 <div class="form">
 <form method="POST" enctype="multipart/form-data" action="process-contact-page.php">
@@ -51,7 +52,3 @@
 
 </body>
 </html>
-
-<?php
-    include("includes/footer.html");
-?>
